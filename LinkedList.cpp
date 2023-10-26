@@ -18,7 +18,6 @@ class LinkedList{
                 }
         };
     public:
-        /* What pointer do we need to implement a queue? what about a stack? */
         Node* head;
         Node* tail;
         LinkedList(){
@@ -124,6 +123,8 @@ class LinkedList{
             delete toDel;
             return ret;
         }
+
+        /* Which pointers do we need to use for a queue? what about a stack? */
 
         /* for the for functions, pick one of the four functions above to call for a proper implementation */
         /* hint: enqueue = add to queue, dequeue = remove from queue */
