@@ -47,7 +47,7 @@ class LinkedList{
             return false;
         }
 
-        /* What is the time complexity of find? What would it be in an array representation? */
+        /* What is the time complexity of removeVal? What would it be in an array representation? */
         bool removeVal(int val){
             if(head && head->val == val){
                 Node* del = head;
