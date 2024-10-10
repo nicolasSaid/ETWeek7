@@ -148,7 +148,6 @@ class LinkedList{
             /* what function call would go here? */
             /* what is the time complexity? */
         }
-
         /* what other ways can we implement a queue and a stack? */
         /* what would the time complexity be for those? */
 };
